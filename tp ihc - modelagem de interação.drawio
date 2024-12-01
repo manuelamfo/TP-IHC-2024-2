@@ -1,26 +1,23 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.1">
   <diagram name="Página-1" id="4fPj8FKTWWKvgSlPfXeu">
-    <mxGraphModel dx="2730" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1600" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="tzBEl5uezkZAkphJzdvv-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tzBEl5uezkZAkphJzdvv-1" target="tzBEl5uezkZAkphJzdvv-10">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="tzBEl5uezkZAkphJzdvv-1" value="Fazer agendamento" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tzBEl5uezkZAkphJzdvv-1" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;Selecionar um dia para o agendamento&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="200" width="370" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="tzBEl5uezkZAkphJzdvv-2" value="d+u: escolha a partir do dia XOR escolha a partir do horário" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;" vertex="1" parent="tzBEl5uezkZAkphJzdvv-1">
-          <mxGeometry x="18" y="45" width="340" height="30" as="geometry" />
+        <mxCell id="tzBEl5uezkZAkphJzdvv-2" value="&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;d: mostrar os dias disponíveis&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;d+u: escolher um dia dentre os listados&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;" vertex="1" parent="tzBEl5uezkZAkphJzdvv-1">
+          <mxGeometry x="18" y="40" width="250" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tzBEl5uezkZAkphJzdvv-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tzBEl5uezkZAkphJzdvv-5" target="tzBEl5uezkZAkphJzdvv-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tzBEl5uezkZAkphJzdvv-5" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="404" y="100" width="20" height="20" as="geometry" />
+          <mxGeometry x="414" y="100" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="tzBEl5uezkZAkphJzdvv-4" value="u: selecionar um centro de apoio" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="356" y="130" width="116" height="30" as="geometry" />
+        <mxCell id="tzBEl5uezkZAkphJzdvv-4" value="&lt;div&gt;precond: o usuário já está logado no sistema&lt;/div&gt;u: selecionar um centro de apoio" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="278.5" y="130" width="293" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tzBEl5uezkZAkphJzdvv-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tzBEl5uezkZAkphJzdvv-10" target="tzBEl5uezkZAkphJzdvv-19">
           <mxGeometry relative="1" as="geometry">
@@ -28,116 +25,97 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tzBEl5uezkZAkphJzdvv-10" value="" style="whiteSpace=wrap;html=1;fontStyle=1;startSize=23;fillColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="50" y="236.25" width="38" height="37.5" as="geometry" />
+          <mxGeometry x="406" y="390" width="38" height="37.5" as="geometry" />
         </mxCell>
-        <mxCell id="tzBEl5uezkZAkphJzdvv-14" value="u: escolha a partir do horário" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="28" y="170" width="82" height="50" as="geometry" />
+        <mxCell id="tzBEl5uezkZAkphJzdvv-19" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;Selecionar um horário disponível&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="1">
+          <mxGeometry x="162.12" y="480" width="523.75" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="tzBEl5uezkZAkphJzdvv-19" value="Apresentar os horários disponíveis" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="1">
-          <mxGeometry x="-184.75" y="370" width="507.5" height="120" as="geometry" />
+        <mxCell id="tzBEl5uezkZAkphJzdvv-34" value="&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;selecionar um horário {d: apresentar apenas os horários disponíveis para aquele dia&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;d+u: escolher um horário dentre os listados}&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="tzBEl5uezkZAkphJzdvv-19">
+          <mxGeometry x="7.5" y="50" width="510" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="tzBEl5uezkZAkphJzdvv-34" value="selecionar um horário&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;{d: apresentar apenas&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;os horários com vaga no período de 30 dias&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;d+u: escolher um horário dentre os expostos}&amp;nbsp;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="tzBEl5uezkZAkphJzdvv-19">
-          <mxGeometry x="7.5" y="50" width="500" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="tzBEl5uezkZAkphJzdvv-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tzBEl5uezkZAkphJzdvv-24" target="tzBEl5uezkZAkphJzdvv-29">
+        <mxCell id="tzBEl5uezkZAkphJzdvv-75" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tzBEl5uezkZAkphJzdvv-84" target="tzBEl5uezkZAkphJzdvv-19">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="769" y="340" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tzBEl5uezkZAkphJzdvv-24" value="" style="whiteSpace=wrap;html=1;fontStyle=1;startSize=23;fillColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="760" y="236.25" width="38" height="37.5" as="geometry" />
-        </mxCell>
-        <mxCell id="tzBEl5uezkZAkphJzdvv-25" value="u: escolha a partir do dia" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="738" y="170" width="82" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="tzBEl5uezkZAkphJzdvv-29" value="Apresentar os dias disponíveis" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="1">
-          <mxGeometry x="593.25" y="380" width="371.5" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="tzBEl5uezkZAkphJzdvv-38" value="&lt;div&gt;selecionar um dia {d: apresentar apenas os dias disponíveis,&lt;/div&gt;&lt;div&gt;d+u: escolher um dia dentre os listados}&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="tzBEl5uezkZAkphJzdvv-29">
-          <mxGeometry x="11" y="50" width="350" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="tzBEl5uezkZAkphJzdvv-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tzBEl5uezkZAkphJzdvv-1" target="tzBEl5uezkZAkphJzdvv-24">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="630" y="260" as="sourcePoint" />
-            <mxPoint x="660" y="213.75" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tzBEl5uezkZAkphJzdvv-52" value="Fazer o agendamento do horário" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="1">
-          <mxGeometry x="572.88" y="640" width="411.75" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="tzBEl5uezkZAkphJzdvv-53" value="&lt;div&gt;selecionar um horário {d: apresentar apenas os horários disponíveis,&lt;/div&gt;&lt;div&gt;d+u: escolher um horário disponível para aquele dia}&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="tzBEl5uezkZAkphJzdvv-52">
-          <mxGeometry x="11" y="50" width="390" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="tzBEl5uezkZAkphJzdvv-54" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tzBEl5uezkZAkphJzdvv-29" target="tzBEl5uezkZAkphJzdvv-57">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="750" y="530" as="sourcePoint" />
-            <mxPoint x="780" y="570" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tzBEl5uezkZAkphJzdvv-55" value="u: &lt;font style=&quot;font-size: 12px;&quot;&gt;prosseguir&lt;/font&gt;" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="tzBEl5uezkZAkphJzdvv-54">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="tzBEl5uezkZAkphJzdvv-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tzBEl5uezkZAkphJzdvv-57" target="tzBEl5uezkZAkphJzdvv-52">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="778.7499999999995" y="640" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tzBEl5uezkZAkphJzdvv-57" value="" style="whiteSpace=wrap;html=1;fontStyle=1;startSize=23;fillColor=#000000;direction=south;" vertex="1" parent="1">
-          <mxGeometry x="760" y="570" width="37.5" height="38" as="geometry" />
-        </mxCell>
-        <mxCell id="tzBEl5uezkZAkphJzdvv-59" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="tzBEl5uezkZAkphJzdvv-52" target="tzBEl5uezkZAkphJzdvv-29">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="990" y="750" as="sourcePoint" />
-            <mxPoint x="1110" y="510" as="targetPoint" />
+            <mxPoint x="408.5000000000002" y="745" as="sourcePoint" />
+            <mxPoint x="120" y="540" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1050" y="695" />
-              <mxPoint x="1050" y="435" />
+              <mxPoint x="120" y="720" />
+              <mxPoint x="120" y="540" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="tzBEl5uezkZAkphJzdvv-60" value="u: trocar o dia" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;fontSize=12;" connectable="0" vertex="1" parent="tzBEl5uezkZAkphJzdvv-59">
+        <mxCell id="tzBEl5uezkZAkphJzdvv-76" value="u: editar o horário" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;fontSize=12;" connectable="0" vertex="1" parent="tzBEl5uezkZAkphJzdvv-75">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint y="14" as="offset" />
+            <mxPoint x="-45" y="-91" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tzBEl5uezkZAkphJzdvv-67" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tzBEl5uezkZAkphJzdvv-19" target="tzBEl5uezkZAkphJzdvv-71">
+        <mxCell id="tzBEl5uezkZAkphJzdvv-84" value="" style="whiteSpace=wrap;html=1;fontStyle=1;startSize=23;fillColor=#000000;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="405.25" y="700" width="37.5" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="tzBEl5uezkZAkphJzdvv-90" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="tzBEl5uezkZAkphJzdvv-1" target="tzBEl5uezkZAkphJzdvv-10">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="70" y="540" as="sourcePoint" />
-            <mxPoint x="70" y="570" as="targetPoint" />
+            <mxPoint x="230" y="340" as="sourcePoint" />
+            <mxPoint x="330" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tzBEl5uezkZAkphJzdvv-68" value="u: prosseguir" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="tzBEl5uezkZAkphJzdvv-67">
+        <mxCell id="tzBEl5uezkZAkphJzdvv-91" value="u: escolher um dia" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;fontSize=12;" connectable="0" vertex="1" parent="tzBEl5uezkZAkphJzdvv-90">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tzBEl5uezkZAkphJzdvv-71" value="" style="whiteSpace=wrap;html=1;fontStyle=1;startSize=23;fillColor=#000000;direction=south;" vertex="1" parent="1">
-          <mxGeometry x="50" y="570" width="37.5" height="38" as="geometry" />
-        </mxCell>
-        <mxCell id="tzBEl5uezkZAkphJzdvv-72" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tzBEl5uezkZAkphJzdvv-71" target="tzBEl5uezkZAkphJzdvv-73">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="110" y="614" as="sourcePoint" />
-            <mxPoint x="69" y="650" as="targetPoint" />
+        <mxCell id="tzBEl5uezkZAkphJzdvv-92" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tzBEl5uezkZAkphJzdvv-19" target="tzBEl5uezkZAkphJzdvv-84">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="540" as="sourcePoint" />
+            <mxPoint x="330" y="540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tzBEl5uezkZAkphJzdvv-73" value="Fazer o agendamento do dia" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="1">
-          <mxGeometry x="-121.5" y="640" width="381" height="110" as="geometry" />
+        <mxCell id="tzBEl5uezkZAkphJzdvv-93" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;d: apresentar o dia e horário do agendamento&lt;/div&gt;u: confirmar agendamento&lt;/div&gt;" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;fontSize=12;" connectable="0" vertex="1" parent="tzBEl5uezkZAkphJzdvv-92">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tzBEl5uezkZAkphJzdvv-74" value="&lt;div&gt;selecionar um dia {d: apresentar apenas os dias disponíveis,&lt;/div&gt;&lt;div&gt;d+u: escolher um dia disponível para aquele horário}&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="tzBEl5uezkZAkphJzdvv-73">
-          <mxGeometry x="11" y="50" width="350" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="tzBEl5uezkZAkphJzdvv-75" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="tzBEl5uezkZAkphJzdvv-73" target="tzBEl5uezkZAkphJzdvv-19">
+        <mxCell id="tzBEl5uezkZAkphJzdvv-95" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tzBEl5uezkZAkphJzdvv-84" target="tzBEl5uezkZAkphJzdvv-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-150" y="710" as="sourcePoint" />
-            <mxPoint x="-140" y="585" as="targetPoint" />
+            <mxPoint x="379.9999999999998" y="708.9999999999998" as="sourcePoint" />
+            <mxPoint x="746.25" y="530" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-250" y="700" />
-              <mxPoint x="-250" y="430" />
+              <mxPoint x="790" y="720" />
+              <mxPoint x="792" y="255" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="tzBEl5uezkZAkphJzdvv-76" value="u: mudar o horário" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;fontSize=12;" connectable="0" vertex="1" parent="tzBEl5uezkZAkphJzdvv-75">
+        <mxCell id="tzBEl5uezkZAkphJzdvv-96" value="u: editar o dia" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;fontSize=12;" connectable="0" vertex="1" parent="tzBEl5uezkZAkphJzdvv-95">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint y="-18" as="offset" />
+            <mxPoint x="-1" y="-130" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="tzBEl5uezkZAkphJzdvv-98" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=8 8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="tzBEl5uezkZAkphJzdvv-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="570" as="sourcePoint" />
+            <mxPoint x="790" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tzBEl5uezkZAkphJzdvv-101" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="409" y="790" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tzBEl5uezkZAkphJzdvv-102" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tzBEl5uezkZAkphJzdvv-84" target="tzBEl5uezkZAkphJzdvv-101">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="790" as="sourcePoint" />
+            <mxPoint x="520" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tzBEl5uezkZAkphJzdvv-103" value="u: sair" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;fontSize=12;" connectable="0" vertex="1" parent="tzBEl5uezkZAkphJzdvv-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tzBEl5uezkZAkphJzdvv-104" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="62.12" y="160" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tzBEl5uezkZAkphJzdvv-108" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tzBEl5uezkZAkphJzdvv-104" target="tzBEl5uezkZAkphJzdvv-110">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="230" as="sourcePoint" />
+            <mxPoint x="112" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tzBEl5uezkZAkphJzdvv-109" value="u: sair" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;fontSize=12;" connectable="0" vertex="1" parent="tzBEl5uezkZAkphJzdvv-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tzBEl5uezkZAkphJzdvv-110" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="97.12" y="240" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

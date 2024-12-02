@@ -114,8 +114,8 @@
         <mxCell id="tzBEl5uezkZAkphJzdvv-119" value="d: exibir o botão de agendamento na página do centro de apoio&lt;div&gt;d+u: clicar no botão de agendamento&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="tzBEl5uezkZAkphJzdvv-114" vertex="1">
           <mxGeometry x="12" y="40" width="360" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="tzBEl5uezkZAkphJzdvv-117" value="&lt;div style=&quot;&quot;&gt;precond: o usuário já está logado no sistema&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;u: selecionar um centro de apoio&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=none;" parent="1" vertex="1">
-          <mxGeometry x="294.23" y="-70" width="259.01" height="40" as="geometry" />
+        <mxCell id="tzBEl5uezkZAkphJzdvv-117" value="&lt;div style=&quot;&quot;&gt;precond: o usuário já está logado no sistema e tem acesso à internet&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;u: selecionar um centro de apoio&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="227.12" y="-70" width="395.77" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tzBEl5uezkZAkphJzdvv-120" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="tzBEl5uezkZAkphJzdvv-114" target="tzBEl5uezkZAkphJzdvv-124" edge="1">
           <mxGeometry relative="1" as="geometry">

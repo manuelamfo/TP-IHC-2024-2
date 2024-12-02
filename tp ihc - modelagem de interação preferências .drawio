@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.1">
   <diagram name="Página-1" id="4fPj8FKTWWKvgSlPfXeu">
-    <mxGraphModel dx="1354" dy="1837" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="926" dy="1626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -73,7 +73,7 @@
             <mxPoint x="1050" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VcEPl0-1U5pJkgtZ5y57-4" value="u: seleciona os filtros de interesse" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;fontSize=12;" connectable="0" vertex="1" parent="VcEPl0-1U5pJkgtZ5y57-3">
+        <mxCell id="VcEPl0-1U5pJkgtZ5y57-4" value="&lt;div&gt;precond: o usuário está conectado à internet ou tem locais baixados no dispositivo&lt;/div&gt;u: seleciona os filtros de interesse" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;fontSize=12;" connectable="0" vertex="1" parent="VcEPl0-1U5pJkgtZ5y57-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VcEPl0-1U5pJkgtZ5y57-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tzBEl5uezkZAkphJzdvv-84" target="VcEPl0-1U5pJkgtZ5y57-11">

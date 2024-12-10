@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="Página-1" id="4fPj8FKTWWKvgSlPfXeu">
-    <mxGraphModel dx="1257" dy="1789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="880" dy="1603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -120,6 +120,12 @@
               <mxPoint x="910" y="500" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="chIezBjUUjVgU_PBxqX7-1" value="d: apresenta a tela para avaliação" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;fontSize=12;" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="424.0022693366194" y="220.00333633693458" as="geometry" />
+        </mxCell>
+        <mxCell id="chIezBjUUjVgU_PBxqX7-3" value="d: avaliação salva com sucesso" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;fontSize=12;" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="424.0022693366194" y="540.0033363369346" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
